@@ -20,7 +20,7 @@ export default function Projects() {
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . Javascript</p>
           <div className="card_btn">
-            <button><a target="_blank" href="https://upgrad-ravishukla86044.vercel.app/">DEMO</a></button>
+            <button><a target="_blank" href="https://mehtab39.github.io/projectfashionnova/root/index.html">DEMO</a></button>
             <button><a target="_blank" href="https://github.com/mehtab39/projectfashionnova"> CODE</a></button>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function Projects() {
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . Javascript(ES6)</p>
           <div className="card_btn">
-            <button><a target="_blank" href="https://priceline-clone.vercel.app">DEMO</a></button>
+            <button><a target="_blank" href="https://pepperfry-clone-silk.vercel.app/">DEMO</a></button>
             <button><a target="_blank" href="https://github.com/ravi-bala13/PEPPERFRY-CLONE"> CODE</a></button>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Projects() {
 
            <div className="pcards">
         <div className="pimg">
-          <img src={"assets/pepperfry.jpg"} alt="" />
+          <img src={"assets/pepperfry1.jpg"} alt="" />
         </div>
         <div className="pinf">
           <h3>Pepperfry(clone)</h3>
@@ -60,7 +60,7 @@ export default function Projects() {
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . JavaScript . MongoDb . Mongoose . Express . Nodejs</p>
           <div className="card_btn">
-            <button><a target="_blank" href="https://tumblrclone.netlify.app/">DEMO</a></button>
+            <button><a target="_blank" href="https://pepperfry-clone-silk.vercel.app/">DEMO</a></button>
             <button><a target="_blank" href=" https://github.com/sushantsharmaa/PEPPERFRY-CLONE-BACKEND"> CODE</a></button>
           </div>
         </div>
