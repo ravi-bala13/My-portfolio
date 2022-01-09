@@ -70,7 +70,7 @@ export default function About() {
                    <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img src={"assets/React.png"} alt="" />
+                <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"} alt="" />
               </div>
               <div className="name">React</div>
             </div>
@@ -79,7 +79,7 @@ export default function About() {
                    <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img src={"assets/redux.png"} alt="" />
+                <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"} alt="" />
               </div>
               <div className="name">Redux</div>
             </div>
@@ -99,7 +99,7 @@ export default function About() {
            <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img src={"assets/node.jpg"} alt="" />
+                <img src={"https://cdn.svgporn.com/logos/nodejs-icon.svg"} alt="" />
               </div>
               <div className="name">Node.js</div>
             </div>
@@ -117,7 +117,7 @@ export default function About() {
            <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img src={"assets/mongodb.png"} alt="" />
+                <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"} alt="" />
               </div>
               <div className="name">MongoDB</div>
             </div>

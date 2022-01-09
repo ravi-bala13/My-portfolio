@@ -85,15 +85,15 @@
     line-height: 56px;
 }
 .icons{
-background-color: #15023a ;
-/* height: 100px; */
-/* width: 150px; */
-/* text-align: center;
- margin: 5px;
- border: 1px solid white; */
-/* overflow-y: hidden; */
-width: 100px;
-    height: 100px;
+    background-color: #15023a ;
+    /* height: 100px; */
+    /* width: 150px; */
+    /* text-align: center;
+    margin: 5px;
+    border: 1px solid white; */
+    /* overflow-y: hidden; */
+    width: 120px;
+    height: 120px;
     display: flex;
      text-align: center;
     -webkit-box-pack: center;

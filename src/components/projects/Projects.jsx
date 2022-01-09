@@ -8,13 +8,13 @@ export default function Projects() {
       <div className="line"></div>
       <div className="pcards">
         <div className="pimg">
-          <img src={"assets/fashanova.png"} alt="" />
+          <img src={"assets/fashanova1.JPG"} alt="" />
         </div>
         <div className="pinf">
           {/* <div className="pinfone"> */}
           <h3>Fashanova.com(clone)</h3>
           <p>
-            A clone of Fashanova, which is world’s leading quick-to-market apparel and lifestyle brand. It provides the season’s most wanted styles to millions of people worldwide.
+            We had to clone a Fashanova.com, which is e-commerce website. It provides the season’s most wanted styles to millions of people worldwide.
             </p>
             {/* </div> */}
           <h4>Tech Stack</h4>
@@ -33,9 +33,9 @@ export default function Projects() {
           <img src={"assets/pepperfry.jpg"} alt="" />
         </div>
         <div className="pinf">
-          <h3>Pepperfry(clone)</h3>
+          <h3>Pepperfry(Front-end)</h3>
           <p>
-            A clone of online booking platform which offers users to order any types of shofas.
+          We had to clone the pepperfry.com, which is e-commerce website. We have tried to clone the pixel-perfect website with the help of HTML, CSS, JAVASCRIPT(ES6).
           </p>
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . Javascript(ES6)</p>
@@ -53,9 +53,10 @@ export default function Projects() {
           <img src={"assets/pepperfry1.jpg"} alt="" />
         </div>
         <div className="pinf">
-          <h3>Pepperfry(clone)</h3>
+          <h3>Pepperfry(Back-end)</h3>
           <p>
-          A clone of online booking platform which offers users to order any types of shofas.
+          We had to clone the pepperfry.com website. We have tried to clone the pixel-perfect website and Implemented the back-end of the clone with the help of HTML, CSS, JAVASCRIPT, Express, MongoDB, NodeJS.
+           
           </p>
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . JavaScript . MongoDb . Mongoose . Express . Nodejs</p>
