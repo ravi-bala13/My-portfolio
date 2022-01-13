@@ -3,7 +3,15 @@ $mainColor: #15023a;
 $width: 768px;
 
 @mixin mobile {
-    @media (max-width: #{$width}){
-        @content
-    }
+  @media (max-width: #{$width}) {
+    @content;
+  }
 }
+
+// $widthda: 380px;
+
+// @mixin mobileda {
+//   @media (max-width: #{$widthda}) {
+//     @content;
+//   }
+// }

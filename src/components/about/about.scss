@@ -1,0 +1,24 @@
+/* &&&&&&&&&&&&& */
+
+@import "../../global.scss";
+
+.icons {
+  @include mobile {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+#material-ui {
+  @include mobile {
+    font-size: 5px;
+  }
+}
+
+#material-ui > img {
+  @include mobile {
+    width: 25px;
+  }
+}
+
+/* ************* */

@@ -13,62 +13,127 @@ export default function Projects() {
         <div className="pinf">
           {/* <div className="pinfone"> */}
           <h3>Fashanova.com(clone)</h3>
-          <p>
-            We had to clone a Fashanova.com, which is e-commerce website. It provides the season’s most wanted styles to millions of people worldwide.
-            </p>
-            {/* </div> */}
+          <p>We had to clone a Fashanova.com, which is e-commerce website.</p>
+
+          <div className="features">
+            <p>Feature</p>
+            <ul>
+              <li>Sign-in/Sign-up</li>
+              <li>Clothes gallery based on age and gender</li>
+              <li>Add products to a shopping bag</li>
+            </ul>
+          </div>
+
+          {/* </div> */}
           <h4>Tech Stack</h4>
-          <p>HTML5 . CSS3 . Javascript</p>
+          <p>HTML5 . CSS3 . JAVACRIPT</p>
           <div className="card_btn">
-            <button><a target="_blank" href="https://mehtab39.github.io/projectfashionnova/root/index.html">DEMO</a></button>
-            <button><a target="_blank" href="https://github.com/mehtab39/projectfashionnova"> CODE</a></button>
+            <button>
+              <a
+                target="_blank"
+                href="https://mehtab39.github.io/projectfashionnova/root/index.html"
+              >
+                DEMO
+              </a>
+            </button>
+            <button>
+              <a
+                target="_blank"
+                href="https://github.com/mehtab39/projectfashionnova"
+              >
+                {" "}
+                CODE
+              </a>
+            </button>
           </div>
         </div>
-          </div>
-          
-      
+      </div>
 
-       <div className="pcards">
+      <div className="pcards">
         <div className="pimg">
           <img src={"assets/pepperfry.jpg"} alt="" />
         </div>
         <div className="pinf">
           <h3>Pepperfry(Front-end)</h3>
-          <p>
-          We had to clone the pepperfry.com, which is e-commerce website. We have tried to clone the pixel-perfect website with the help of HTML, CSS, JAVASCRIPT(ES6).
-          </p>
+          <p>We had to clone the pepperfry.com, which is e-commerce website.</p>
+
+          <div className="features">
+            <p>Feature</p>
+            <ul>
+              <li>Product details page</li>
+              <li>Payment page</li>
+              <li> Shopping cart</li>
+            </ul>
+          </div>
+
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . Javascript(ES6)</p>
           <div className="card_btn">
-            <button><a target="_blank" href="https://pepperfry-clone-silk.vercel.app/">DEMO</a></button>
-            <button><a target="_blank" href="https://github.com/ravi-bala13/PEPPERFRY-CLONE"> CODE</a></button>
+            <button>
+              <a
+                target="_blank"
+                href="https://pepperfry-clone-silk.vercel.app/"
+              >
+                DEMO
+              </a>
+            </button>
+            <button>
+              <a
+                target="_blank"
+                href="https://github.com/ravi-bala13/PEPPERFRY-CLONE"
+              >
+                {" "}
+                CODE
+              </a>
+            </button>
           </div>
         </div>
       </div>
 
-      
-
-           <div className="pcards">
+      <div className="pcards">
         <div className="pimg">
           <img src={"assets/pepperfry1.jpg"} alt="" />
         </div>
         <div className="pinf">
           <h3>Pepperfry(Back-end)</h3>
           <p>
-          We had to clone the pepperfry.com website. We have tried to clone the pixel-perfect website and Implemented the back-end of the clone with the help of HTML, CSS, JAVASCRIPT, Express, MongoDB, NodeJS.
-           
+            We had to clone the pepperfry.com website. We have tried to clone
+            the pixel-perfect website and Implemented the back-end of the clone
           </p>
+
+          <div className="features">
+            <p>Feature</p>
+            <ul>
+              <li>Product details getting from backend</li>
+              <li>checking login credential using mangodb </li>
+            </ul>
+          </div>
+
           <h4>Tech Stack</h4>
-          <p>HTML5 . CSS3 . JavaScript . MongoDb . Mongoose . Express . Nodejs</p>
+          <p>HTML5 . CSS3 . JavaScript . MongoDb . Mongoose . Express</p>
           <div className="card_btn">
-            <button><a target="_blank" href="https://pepperfry-clone-silk.vercel.app/">DEMO</a></button>
-            <button><a target="_blank" href=" https://github.com/sushantsharmaa/PEPPERFRY-CLONE-BACKEND"> CODE</a></button>
+            <button>
+              <a
+                target="_blank"
+                href="https://pepperfry-clone-silk.vercel.app/"
+              >
+                DEMO
+              </a>
+            </button>
+            <button>
+              <a
+                target="_blank"
+                href=" https://github.com/sushantsharmaa/PEPPERFRY-CLONE-BACKEND"
+              >
+                {" "}
+                CODE
+              </a>
+            </button>
           </div>
         </div>
       </div>
 
-
-          {/* <div className="pcards">
+      {/* <div className="pcards">
         <div className="pimg">
           <img src={"assets/indeed1.png"} alt="" />
         </div>
@@ -85,9 +150,6 @@ export default function Projects() {
           </div>
         </div>
           </div> */}
-         
-
-         
     </div>
   );
 }

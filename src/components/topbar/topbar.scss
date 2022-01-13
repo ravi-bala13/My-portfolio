@@ -1,22 +1,22 @@
 @import "../../global.scss";
 
-.my-logo{
-  width: 50px;
+.my-logo {
+  width: 40px;
 }
 
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: rgb(17,24,37);
+  background-color: rgb(17, 24, 37);
   color: white;
   position: fixed;
   top: 0;
   z-index: 3;
   // box-shadow: rgb(36 36 58) 3px 3px 10px;
   transition: all 1s ease;
-   &::-webkit-scrollbar{
-      display: none;
-    }
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   .wrapper {
     // width: 80vw;
@@ -31,8 +31,7 @@
       align-items: center;
       // margin-left: 6vw;
       margin-left: 6vw;
-     
-    
+
       .logo {
         font-size: 40px;
         font-weight: 700;
@@ -40,89 +39,90 @@
         color: inherit;
         margin-right: 40px;
       }
-     
+
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
         cursor: pointer;
-      
-         a {
-        font-size: inherit;
-        color: inherit;
-        text-decoration: none;
-      }
 
-      &:hover {
-        font-weight: 500;
-      }
-        @include mobile{
+        a {
+          font-size: inherit;
+          color: inherit;
+          text-decoration: none;
+        }
+
+        &:hover {
+          font-weight: 500;
+        }
+        @include mobile {
           display: none;
         }
-          & :hover{
-            font-weight: 500;
-         color: lightblue;
-        //  border-bottom: 2px solid blue;
+        & :hover {
+          font-weight: 500;
+          color: lightblue;
+          //  border-bottom: 2px solid blue;
         }
 
         .icon {
           font-size: 18px;
           margin-right: 5px;
-           border-bottom:none;
+          border-bottom: none;
         }
 
         span {
           font-size: 15px;
           font-weight: 500;
-           border-bottom:none;
+          border-bottom: none;
         }
       }
-    
-      .option{
-         display: flex;
+
+      .option {
+        display: flex;
         align-items: center;
         // margin-left: 30vw;
-         margin-left: 50vw;
+        margin-left: 50vw;
         cursor: pointer;
         font-weight: 500;
 
-         a {
-        font-size: inherit;
-        color: inherit;
-        text-decoration: none;
-      }
-       a:hover {
-	// color: #00a0a0;
-
-}
- a::after {
-	content: '';
-	display: block;
-	width: 0;
-	margin-top: 5px;
-	height: 2px;
-	background: linear-gradient(
-270deg
-, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
-	transition: width 0.4s;
-}
- a:hover::after {
-	width: 100%;
-}
-
-      &:hover {
-        font-weight: 500;
-      }
-         & :hover{
-            font-weight: 500;
-         color: lightblue;
-        //  border-bottom: 2px solid blue;
-         &::-webkit-scrollbar{
-      display: none;
-    }
+        a {
+          font-size: inherit;
+          color: inherit;
+          text-decoration: none;
+        }
+        a:hover {
+          // color: #00a0a0;
+        }
+        a::after {
+          content: "";
+          display: block;
+          width: 0;
+          margin-top: 5px;
+          height: 2px;
+          background: linear-gradient(
+            270deg,
+            rgb(19, 173, 199) 0%,
+            rgb(148, 93, 214) 100%
+          );
+          transition: width 0.4s;
+        }
+        a:hover::after {
+          width: 100%;
         }
 
-        @include mobile{
+        &:hover {
+          font-weight: 500;
+        }
+        & :hover {
+          font-weight: 500;
+          color: lightblue;
+          //  border-bottom: 2px solid blue;
+          &::-webkit-scrollbar {
+            display: none;
+          }
+        }
+
+        @include mobile {
           display: none;
         }
       }
@@ -130,17 +130,16 @@
 
     .right {
       .hamburger {
-        display:none;
+        display: none;
 
-        @include mobile{
- width: 32px;
-        height: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        cursor: pointer;
+        @include mobile {
+          width: 32px;
+          height: 25px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          cursor: pointer;
         }
-       
 
         span {
           width: 100%;
@@ -156,14 +155,14 @@
   &.active {
     background-color: white;
     color: white;
-      &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
       display: none;
     }
 
     .hamburger {
-        &::-webkit-scrollbar{
-      display: none;
-    }
+      &::-webkit-scrollbar {
+        display: none;
+      }
       span {
         &:first-child {
           background-color: $mainColor;

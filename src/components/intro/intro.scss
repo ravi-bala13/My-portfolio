@@ -5,9 +5,8 @@
   display: flex;
   //  scroll-snap-type: y mandatory;
   //  height: calc(100vh - 70px);
-    
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
@@ -17,13 +16,12 @@
     overflow: hidden;
     position: relative;
 
-
     .imgContainer {
       width: 700px;
       height: 700px;
       margin-top: 25px;
       // background-color: crimson;
-     
+
       // border-radius: 50%;
       display: flex;
       align-items: center;
@@ -31,12 +29,12 @@
       float: left;
       margin-left: -30px;
 
-      @include mobile{
+      @include mobile {
         align-items: flex-start;
-         width: 400px;
-         margin: auto;
-      height: 500px;
-      padding-bottom: 0px;
+        width: 400px;
+        margin: auto;
+        height: 500px;
+        padding-bottom: 0px;
       }
 
       img {
@@ -44,9 +42,8 @@
         width: 40%;
         border-radius: 80px;
         border-bottom: 10px solid #9802be;
-       
 
-        @include mobile{
+        @include mobile {
           // height: 50%;
           width: 80%;
         }
@@ -56,7 +53,7 @@
   .right {
     flex: 0.6;
     //position: relative;
-    color: rgb(204,214,246);
+    color: rgb(204, 214, 246);
 
     .wrapper {
       width: 100%;
@@ -66,66 +63,63 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-    //   &::-webkit-scrollbar{
-    //   display: none;
-    //   overflow-y: hidden;
-    // }
+      //   &::-webkit-scrollbar{
+      //   display: none;
+      //   overflow-y: hidden;
+      // }
 
-      @include mobile{
+      @include mobile {
         padding-left: 0;
         padding-top: 20px;
         align-items: center;
         margin-top: 70px;
       }
-      .btn{
+
+      .btn {
         display: flex;
         width: 150px;
         color: rgb(204, 214, 246);
-    background: linear-gradient(
-120deg
-, rgb(12, 29, 62), rgb(4, 32, 39));
-padding: 20px 20px;
-    margin: 20px 10px;
-    border: 1px solid antiquewhite;
-    outline: none;
-    border-radius: 5px;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    font-size: 18px;
-    align-items: center;
-    // text-align: center;
-    justify-content: center;
-    
-        &:hover{
+        background: linear-gradient(120deg, rgb(12, 29, 62), rgb(4, 32, 39));
+        padding: 20px 20px;
+        margin: 20px 10px;
+        border: 1px solid antiquewhite;
+        outline: none;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        font-size: 18px;
+        align-items: center;
+        // text-align: center;
+        justify-content: center;
+
+        &:hover {
           border-radius: 25px;
         }
-        @include mobile{
+        @include mobile {
           // width: 100px;
           // height: 30px;
           font-size: 18px;
-    //       padding: 5px 5px;
-    // margin: 10px 0px;
+          //       padding: 5px 5px;
+          // margin: 10px 0px;
         }
-    span{
-      margin-right: 5px;
-      font-size: 14px;
-      margin-left: -5px;
+        span {
+          margin-right: 5px;
+          font-size: 14px;
+          margin-left: -5px;
 
-       @include mobile{
-      margin-right: 5px;
-      // height: 100%;
-      // display: none;
-    }
-    }
-   
-        
+          @include mobile {
+            margin-right: 5px;
+            // height: 100%;
+            // display: none;
+          }
+        }
       }
 
       h1 {
         font-size: 70px;
         margin: 10px 0;
 
-        @include mobile{
+        @include mobile {
           font-size: 40px;
         }
       }
@@ -135,7 +129,7 @@ padding: 20px 20px;
       h3 {
         font-size: 30px;
 
-        @include mobile{
+        @include mobile {
           font-size: 20px;
         }
 
@@ -149,12 +143,12 @@ padding: 20px 20px;
         }
 
         @keyframes blink {
-            50%{
-                opacity: 1;
-            }
-            100%{
-                opacity: 0;
-            }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
       }
     }
