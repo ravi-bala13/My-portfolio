@@ -51,23 +51,25 @@ export default function Projects() {
 
       <div className="pcards">
         <div className="pimg">
-          <img src={"assets/pepperfry.jpg"} alt="" />
+          <img src={"assets/faballey.png"} alt="" />
         </div>
         <div className="pinf">
-          <h3>Pepperfry(Front-end)</h3>
-          <p>We had to clone the pepperfry.com, which is e-commerce website.</p>
+          <h3>Faballey</h3>
+          <p>We had to clone the faballey.com, which is e-commerce website.</p>
 
           <div className="features">
             <p>Feature</p>
             <ul>
-              <li>Product details page</li>
-              <li>Payment page</li>
+              <li>Product page having sorting function</li>
+              <li>Product details page having addto cart funtionality</li>
               <li> Shopping cart</li>
             </ul>
           </div>
 
           <h4>Tech Stack</h4>
-          <p>HTML5 . CSS3 . Javascript(ES6)</p>
+          <p>
+            HTML5 . CSS3 . Javascript(ES6) . React . Redux . Mongoose . Express{" "}
+          </p>
           <div className="card_btn">
             <button>
               <a
@@ -80,7 +82,7 @@ export default function Projects() {
             <button>
               <a
                 target="_blank"
-                href="https://github.com/ravi-bala13/PEPPERFRY-CLONE"
+                href="https://github.com/Sachi4496/faballey-clone"
               >
                 {" "}
                 CODE
@@ -95,7 +97,7 @@ export default function Projects() {
           <img src={"assets/pepperfry1.jpg"} alt="" />
         </div>
         <div className="pinf">
-          <h3>Pepperfry(Back-end)</h3>
+          <h3>Pepperfry</h3>
           <p>
             We had to clone the pepperfry.com website. We have tried to clone
             the pixel-perfect website and Implemented the back-end of the clone
