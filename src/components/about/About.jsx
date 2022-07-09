@@ -148,9 +148,9 @@ export default function About() {
           <div className="icons">
             <div className="mainCO">
               <div className="iconContainer" id="material-ui">
-                <img src={"assets/material-ui.png"} alt="" />
+                <img src={"assets/spring.jpeg"} alt="" />
               </div>
-              <div className="name">Material-UI</div>
+              <div className="name">Spring Boot</div>
             </div>
           </div>
 
@@ -162,6 +162,16 @@ export default function About() {
               <div className="name">GIT</div>
             </div>
           </div>
+
+          <div className="icons">
+            <div className="mainCO">
+              <div className="iconContainer">
+                <img src={"assets/images.png"} alt="" />
+              </div>
+              <div className="name">Bitbucket</div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
