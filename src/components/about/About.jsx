@@ -166,7 +166,7 @@ export default function About() {
           <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img src={"assets/images.png"} alt="" />
+                <img src={"assets/bitbucket.png"} alt="" />
               </div>
               <div className="name">Bitbucket</div>
             </div>
