@@ -12,13 +12,17 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </a>
           <div className="option">
             <div className="itemContainer,option">
-           <span> <a href="#intro">Home</a></span>
-                     
+           <span> <a href="#intro">Home</a></span>                     
           </div>
+
           <div className="itemContainer">
-           <span>  <a href="#about">About</a></span>
-                     
+           <span>  <a href="#about">AboutMe</a></span>                     
           </div>
+
+          <div className="itemContainer">
+           <span>  <a href="#skills">Skills</a></span>                     
+          </div>
+
           <div className="itemContainer">
             <span> <a href="#projects">Projects</a></span>
                      
@@ -28,7 +32,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           
             
             </div>
-               <div className="itemContainer" onClick={() => window.open("assets/fw12_119_bala_murugan.pdf", "_blank")}>
+               <div className="itemContainer" onClick={() => window.open("assets/fw12_119-Bala-Murugan", "_blank")}>
               <span style={{ display: "flex" }}><GetAppIcon style={{height:"18px",margin:"2px",borderBottom:"none"}}/>  Resume</span>
           
             

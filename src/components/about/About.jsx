@@ -42,7 +42,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="skills">
+      <div className="skills" id="skills">
         <h1>Proficiency</h1>
         <div className="line"></div>
         <div className="options">
@@ -175,5 +175,7 @@ export default function About() {
         </div>
       </div>
     </div>
+
+    
   );
 }
