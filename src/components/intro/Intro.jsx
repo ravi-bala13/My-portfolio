@@ -38,7 +38,7 @@ export default function Intro() {
           <button
             className="btn"
             onClick={() =>
-              window.open("assets/fw12_119-Bala-Murugan.pdf", "_blank")
+              window.open("assets/fw12_119-Bala-Murugan-Resume.pdf", "_blank")
             }
           >
             <span>

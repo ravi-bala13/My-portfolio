@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <div className="main" id="contact">
       <div className="contact">
-        <h1>Contact</h1>
+        <h1>Contact Me</h1>
         <div className="line"></div>
         <div className="contact_inf">
         <div className="parag">

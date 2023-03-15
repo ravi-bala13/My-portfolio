@@ -135,23 +135,35 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* <div className="pcards">
+      <div className="pcards">
         <div className="pimg">
-          <img src={"assets/indeed1.png"} alt="" />
+          <img src={"assets/TodoApp.png"} alt="" />
         </div>
         <div className="pinf">
-          <h3>Indeed(clone)</h3>
+          <h3>Todo App</h3>
           <p>
-            A clone of online Job search platform which provides a number of job opportunities for the jobseekers.
+            A Basic Todo app to make a todo list for a day.
           </p>
           <h4>Tech Stack</h4>
-          <p>React . Material-UI . Bootstrap . Styled-Components</p>
+          <p>HTML . css . React . Material-UI</p>
           <div className="card_btn">
-            <button><a target="_blank" href="https://clone-of-indeed.netlify.app/">DEMO</a></button>
-            <button><a target="_blank" href="https://github.com/sheikhtausif/IndeedClone"> CODE</a></button>
+            <button>
+              <a target="_blank" href="https://todo-app-nine-blond.vercel.app/">
+                DEMO
+              </a>
+            </button>
+            <button>
+              <a
+                target="_blank"
+                href="https://github.com/ravi-bala13/Todo-app"
+              >
+                {" "}
+                CODE
+              </a>
+            </button>
           </div>
         </div>
-          </div> */}
+      </div>
     </div>
   );
 }
