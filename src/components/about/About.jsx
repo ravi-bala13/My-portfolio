@@ -76,12 +76,7 @@ export default function About() {
           <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img
-                  src={
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                  }
-                  alt=""
-                />
+                <img src={"assets/React.png"} alt="" />
               </div>
               <div className="name">React</div>
             </div>
@@ -90,12 +85,7 @@ export default function About() {
           <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img
-                  src={
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
-                  }
-                  alt=""
-                />
+                <img src={"assets/redux.png"} alt="" />
               </div>
               <div className="name">Redux</div>
             </div>
@@ -113,10 +103,7 @@ export default function About() {
           <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img
-                  src={"https://cdn.svgporn.com/logos/nodejs-icon.svg"}
-                  alt=""
-                />
+                <img src={"assets/node.jpg"} alt="" />
               </div>
               <div className="name">Node.js</div>
             </div>
@@ -134,12 +121,7 @@ export default function About() {
           <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
-                <img
-                  src={
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-                  }
-                  alt=""
-                />
+                <img src={"assets/mongodb.png"} alt="" />
               </div>
               <div className="name">MongoDB</div>
             </div>
@@ -171,11 +153,8 @@ export default function About() {
               <div className="name">Bitbucket</div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
-
-    
   );
 }

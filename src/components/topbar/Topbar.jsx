@@ -28,7 +28,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                      
                   </div>
                    <div className="itemContainer">
-            <span> <a href="#contact">Contacts</a></span>
+            <span> <a href="#contact">Contact</a></span>
           
             
             </div>
