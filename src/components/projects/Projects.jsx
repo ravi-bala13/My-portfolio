@@ -31,6 +31,7 @@ export default function Projects() {
             <button>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://mehtab39.github.io/projectfashionnova/root/index.html"
               >
                 DEMO
@@ -39,6 +40,7 @@ export default function Projects() {
             <button>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/mehtab39/projectfashionnova"
               >
                 {" "}
@@ -74,6 +76,7 @@ export default function Projects() {
             <button>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://pepperfry-clone-silk.vercel.app/"
               >
                 DEMO
@@ -82,6 +85,7 @@ export default function Projects() {
             <button>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Sachi4496/faballey-clone"
               >
                 {" "}
@@ -117,6 +121,7 @@ export default function Projects() {
             <button>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://pepperfry-clone-silk.vercel.app/"
               >
                 DEMO
@@ -148,13 +153,15 @@ export default function Projects() {
           <p>HTML . css . React . Material-UI</p>
           <div className="card_btn">
             <button>
-              <a target="_blank" href="https://todo-app-nine-blond.vercel.app/">
+              <a target="_blank" 
+                rel="noreferrer" href="https://todo-app-nine-blond.vercel.app/">
                 DEMO
               </a>
             </button>
             <button>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/ravi-bala13/Todo-app"
               >
                 {" "}

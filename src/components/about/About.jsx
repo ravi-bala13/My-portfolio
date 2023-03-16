@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import "./about.scss";
+var GitHubCalendar = require("github-calendar");
 
 export default function About() {
+  // or enable responsive functionality:
+  useEffect(() => {
+    console.log("working");
+    GitHubCalendar(".calendar", "ravi-bala13", { responsive: true });
+  }, []);
+
   return (
     <div className="main" id="about">
       <div className="about">
@@ -42,6 +49,7 @@ export default function About() {
           </div>
         </div>
       </div>
+
       <div className="skills" id="skills">
         <h1>Proficiency</h1>
         <div className="line"></div>
@@ -154,6 +162,12 @@ export default function About() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="about github-cal">
+        <h1>My Github Calender</h1>
+        <div className="line"></div>
+        <div className="calendar"></div>
       </div>
     </div>
   );
