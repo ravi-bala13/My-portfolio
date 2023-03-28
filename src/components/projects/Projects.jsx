@@ -6,7 +6,7 @@ export default function Projects() {
     <div className="projects" id="projects">
       <h1>Projects</h1>
       <div className="line"></div>
-      <div className="pcards">
+      {/* <div className="pcards">
         <div className="pimg">
           <img src={"assets/fashanova1.JPG"} alt="" />
         </div>
@@ -49,7 +49,7 @@ export default function Projects() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="pcards">
         <div className="pimg">
