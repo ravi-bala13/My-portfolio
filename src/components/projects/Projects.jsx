@@ -11,7 +11,7 @@ export default function Projects() {
           <img src={"assets/fashanova1.JPG"} alt="" />
         </div>
         <div className="pinf">
-          {/* <div className="pinfone"> */}
+          
           <h3>Fashanova.com(clone)</h3>
           <p>We had to clone a Fashanova.com, which is e-commerce website.</p>
 
@@ -24,7 +24,7 @@ export default function Projects() {
             </ul>
           </div>
 
-          {/* </div> */}
+          
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . JAVACRIPT</p>
           <div className="card_btn">
@@ -146,15 +146,16 @@ export default function Projects() {
         </div>
         <div className="pinf">
           <h3>Todo App</h3>
-          <p>
-            A Basic Todo app to make a todo list for a day.
-          </p>
+          <p>A Basic Todo app to make a todo list for a day.</p>
           <h4>Tech Stack</h4>
           <p>HTML . css . React . Material-UI</p>
           <div className="card_btn">
             <button>
-              <a target="_blank" 
-                rel="noreferrer" href="https://todo-app-nine-blond.vercel.app/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://todo-app-nine-blond.vercel.app/"
+              >
                 DEMO
               </a>
             </button>
