@@ -122,7 +122,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://pepperfry-clone-silk.vercel.app/"
+                href="https://pepperfry-clone-project.vercel.app/"
               >
                 DEMO
               </a>
@@ -130,7 +130,7 @@ export default function Projects() {
             <button>
               <a
                 target="_blank"
-                href=" https://github.com/sushantsharmaa/PEPPERFRY-CLONE-BACKEND"
+                href="https://github.com/ravi-bala13/pepperfryCloneProject"
               >
                 {" "}
                 CODE
