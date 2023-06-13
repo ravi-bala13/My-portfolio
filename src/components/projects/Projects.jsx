@@ -142,6 +142,53 @@ export default function Projects() {
 
       <div className="pcards">
         <div className="pimg">
+          <img src={"assets/FeedApp.png"} alt="" />
+        </div>
+        <div className="pinf">
+          <h3>Feed App</h3>
+          <p>A Social media kind of platform.</p>
+
+          <div className="features">
+            <p>Feature</p>
+            <ul>
+              <li>Can create post</li>
+              <li>Can add comments for the posts</li>
+              <li>Can like and dislike the post</li>
+              <li>Can chat with other users</li>
+            </ul>
+          </div>
+
+          <h4>Tech Stack</h4>
+          <p>
+            HTML . css . React . Material-UI . NodeJs . MongoDB . Express .
+            BootStrap
+          </p>
+          <div className="card_btn">
+            <button>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://feed-app-react.vercel.app/"
+              >
+                DEMO
+              </a>
+            </button>
+            <button>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/ravi-bala13/FeedAppReact"
+              >
+                {" "}
+                CODE
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="pcards">
+        <div className="pimg">
           <img src={"assets/TodoApp.png"} alt="" />
         </div>
         <div className="pinf">
